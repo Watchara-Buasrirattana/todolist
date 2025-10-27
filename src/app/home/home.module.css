@@ -1,0 +1,55 @@
+.header {
+    background-color: #FF9500;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 50vh;
+
+    h1 {
+        font-size: 96px;
+        font-weight: 800;
+        line-height: 0.85;
+        letter-spacing: -2;
+    }
+}
+
+.container {
+    margin: 0;
+    padding: 0 15%;
+
+    .avatarImage {
+        margin: -70px;
+        border-radius: 20px;
+    }
+
+    .overview {
+        display: grid;
+        text-align: center;
+        margin-top: 70px;
+
+        h1 {
+            font-size: 48px;
+            font-weight: 900;
+        }
+
+        p {
+            font-size: 16px;
+            padding-bottom: 5%;
+            font-family: "Inter", sans-serif;
+        }
+
+        .overviewItem {
+            display: flex;
+            justify-content: space-between;
+
+            h2 {
+                font-size: 24px;
+                font-weight: 500;
+            }
+        }
+    }
+}
