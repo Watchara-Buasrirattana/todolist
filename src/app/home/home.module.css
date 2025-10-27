@@ -40,15 +40,27 @@
             font-size: 16px;
             padding-bottom: 5%;
             font-family: "Inter", sans-serif;
+            font-weight: 300;
         }
 
         .overviewItem {
             display: flex;
             justify-content: space-between;
 
-            h2 {
-                font-size: 24px;
-                font-weight: 500;
+
+            .item {
+                display: grid;
+                justify-items: center;
+
+                h3 {
+                    font-size: 24px;
+                    font-weight: 500;
+                }
+                
+                .count {
+                    font-size: 64px;
+                    font-family: "Rozha One", serif;
+                }
             }
         }
     }
